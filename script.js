@@ -1,3 +1,4 @@
+
 function toggle(element){
   const content = element.nextElementSibling;
 
@@ -14,3 +15,4 @@ function loadPDF(file){
 document.addEventListener("click", function () {
   document.getElementById("bgmusic").play();
 }, { once: true });
+
